@@ -61,7 +61,7 @@ public class AndroidEmulator extends BuildWrapper implements Serializable {
     private static final long serialVersionUID = 1L;
 
     /** Duration by which the emulator should start being available via adb. */
-    private static final int ADB_CONNECT_TIMEOUT_MS = 60 * 1000;
+    private static final int ADB_CONNECT_TIMEOUT_MS = 360 * 1000;
 
     /** Duration by which emulator booting should normally complete. */
     private static final int BOOT_COMPLETE_TIMEOUT_MS = 360 * 1000;
